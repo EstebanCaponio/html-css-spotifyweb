@@ -5,6 +5,15 @@
         height: calc(100% - 170px);
     }
 
+    .menu{
+        width: 450px;
+    }
+    
+    .home{
+        width: calc(100% - 450px);
+    }
+    
+
     /* footer */
     footer {
         height: 170px;
