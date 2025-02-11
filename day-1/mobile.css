@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Montserrat", serif;
 }
 
 /* utilities */
@@ -18,14 +19,78 @@ main{
 
 /* menù */
 .menu{
-    width: 50px;
+    width: 55px;
     background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 15px 10px 15px;
+    text-align: center;
+    color: #5c5c5c;
+}
+
+.logo :first-child{
+    
+    padding-bottom: 30px;
+}
+
+.logo img+img{
+    display: none;
+}
+
+.menu ul{
+    list-style: none;
+    color: #5c5c5c;
+    text-align: center;
+}
+
+.menu ul li{
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.menu ul li img{
+    width: 23px;
+    filter:brightness(0) saturate(100%) invert(33%) sepia(0%) saturate(0%) hue-rotate(92deg) brightness(100%) contrast(82%);
+}
+
+.menu ul li div{
+    display: none;
+}
+
+.playlist{
+    display: none;
+}
+
+h5{
+    color: white;
+    padding-bottom: 20px;
+}
+
+.playlist ul li.margin{
+    margin-top: 10px;
+}
+
+.fa-plus{
+    color: black;
+    background-color: #5c5c5c;
+    padding: 15px;
+}
+
+.menu-bottom .id{
+    color: white;
+}
+
+.menu-bottom .id img{
+    filter: none;
 }
 
 /* home */
 .home{
-    width: calc(100% - 50px);
+    width: calc(100% - 55px);
 }
+
 
 /* navigazione */
 nav{

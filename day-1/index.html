@@ -5,6 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify Web</title>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- icone -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- collegamenti css -->
     <link rel="stylesheet" href="mobile.css">
     <link rel="stylesheet" href="dekstop.css">
@@ -13,7 +19,57 @@
 <body>
     <main>
         <!-- colonna del menù -->
-        <div class="menu"></div>
+        <div class="menu">
+            <div class="menu-top">
+                <div class="logo">
+                    <img src="../img/logo-small.svg" alt="logo-small">
+                    <img src="../img/logo.svg" alt="logo">
+                </div>
+
+                <ul>
+                    <li>
+                        <img src="../img/home.svg" alt="logo">
+                        <div>Home</div>
+                    </li>
+                    <li>
+                        <img src="../img/search.svg" alt="logo">
+                        <div>Cerca</div>
+                    </li>
+                    <li>
+                        <img src="../img/libreria.svg" alt="logo">
+                        <div>La tua libreria</div>
+                    </li>
+                </ul>
+
+                <div class="playlist">
+                    <h5>PLAYLISTS</h5>
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-plus"></i>
+                            <div>Crea Playlist</div>
+                        </li>
+                        <li class="margin">
+                            Nome Playlist
+                        </li>
+                        <li>Nome Playlist</li>
+                        <li>Nome Playlist</li>
+                        <li>Nome Playlist</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="menu-bottom">
+                <ul>
+                    <li class="download">
+                        <img src="../img/download.svg" alt="download">
+                        <div>Installa app</div>
+                    </li>
+                    <li class="id">
+                        <img src="../img/profile.svg" alt="download">
+                        <div>Gaetano Frascolla</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
         <!-- home page -->
         <div class="home">
             <nav></nav>

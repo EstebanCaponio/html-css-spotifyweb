@@ -2,22 +2,64 @@
 
     /********** main **********/
     main {
-        height: calc(100% - 170px);
+        height: calc(100% - 100px);
     }
 
     /* menù */
     .menu {
-        width: 450px;
+        width: 250px;
+        padding: 20px 0px 0px 15px;
+        text-align: left;
+    }
+
+    .logo :first-child {
+        display: none;
+    }
+
+    .logo img+img {
+        display: block;
+        padding-bottom: 40px;
+        padding-right: 50px;
+    }
+
+    .menu ul{
+        text-align: left;
+    }
+
+    .menu ul li{
+        padding-bottom: 20px;
+    }
+
+    .menu ul li img{
+        width: 30px;
+    }
+    
+    .menu ul li div{
+        display: block;
+        padding-left: 10px;
+    }
+
+    .playlist{
+        display: block;
+    }
+
+    .menu-bottom ul{
+        padding-right: 10px;
+    }
+
+    .menu-bottom .download{
+        border-bottom: 1px solid white;
+        margin-bottom: 20px;
     }
 
     /* home */
     .home {
-        width: calc(100% - 450px);
+        width: calc(100% - 250px);
     }
 
     /* navigazione */
     nav {
-        height: 170px;
+        height: 100px;
         background-color: #10151b;
     }
 
@@ -28,6 +70,6 @@
 
     /********** footer **********/
     footer {
-        height: 170px;
+        height: 100px;
     }
 }
