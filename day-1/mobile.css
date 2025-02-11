@@ -7,26 +7,38 @@
 /* utilities */
 body{
     height: 100vh;
-    width: 100vw;
 }
 
-/* main */
+/********** main **********/
 main{
     height: calc(100% - 90px);
     background-color: #151922;
     display: flex;
 }
 
+/* menù */
 .menu{
     width: 50px;
     background-color: black;
 }
 
+/* home */
 .home{
     width: calc(100% - 50px);
 }
 
-/* footer */
+/* navigazione */
+nav{
+    height: 90px;
+    background-color: #10151b;
+}
+
+/* contenuti */
+.contenuti{
+    height: calc(100% - 90px);
+}
+
+/********** footer **********/
 footer{
     height: 90px;
     background-color: #282828;

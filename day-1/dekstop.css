@@ -1,20 +1,32 @@
 @media screen and (min-width: 992px) {
 
-    /* main */
+    /********** main **********/
     main {
         height: calc(100% - 170px);
     }
 
-    .menu{
+    /* menù */
+    .menu {
         width: 450px;
     }
-    
-    .home{
+
+    /* home */
+    .home {
         width: calc(100% - 450px);
     }
-    
 
-    /* footer */
+    /* navigazione */
+    nav {
+        height: 170px;
+        background-color: #10151b;
+    }
+
+    /* contenuti */
+    .contenuti {
+        height: calc(100% - 170px);
+    }
+
+    /********** footer **********/
     footer {
         height: 170px;
     }
