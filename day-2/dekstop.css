@@ -5,7 +5,7 @@
     /* menù */
     .menu {
         width: 230px;
-        padding-top:20px;
+        padding-top: 20px;
         text-align: left;
     }
 
@@ -19,34 +19,43 @@
         padding: 0 80px 30px 20px;
     }
 
-    .menu ul{
+    .menu ul {
         text-align: left;
     }
 
-    .menu ul li{
+    .menu ul li {
         padding: 7px 20px;
     }
 
-    .menu ul li img{
+    .menu ul li img {
         width: 20px;
     }
-    
-    .menu ul li div{
+
+    .menu ul li div {
         display: block;
         padding-left: 10px;
+        font-weight: bold;
     }
 
-    .playlist{
+    .home {
+        border-left: 3px solid #adff2f;
+    }
+
+    .hover:hover {
+        border-left: 3px solid #adff2f;
+    }
+
+    .playlist {
         display: block;
     }
 
-    h5{
+    h5 {
         color: white;
         padding: 23px 0 15px 20px;
     }
 
     /* menù bottom*/
-    hr{
+    hr {
         display: block;
         color: white;
         margin: 0 20px;
@@ -54,7 +63,7 @@
         height: 1px;
     }
 
-    .menu-bottom .download{
+    .menu-bottom .download {
         padding: 10px 20px;
     }
 
