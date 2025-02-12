@@ -10,12 +10,16 @@ body{
     height: 100vh;
 }
 
+h3{
+    color: white;
+}
+
 /********** main **********/
 main{
     height: calc(100% - 90px);
     background-color: #151922;
     display: flex;
-    overflow-y: auto;
+    /* overflow-y: auto; */
 }
 
 /*** menù ***/
@@ -103,6 +107,7 @@ hr{
 /*** home ***/
 .home-page{
     width: calc(100% - 50px);
+    /* overflow-y: auto; */
 }
 
 
@@ -135,6 +140,7 @@ hr{
 .contenuti{
     height: calc(100% - 90px);
     padding: 20px 30px 30px 20px;
+    overflow-y: auto;
 }
 
 /* prima sezione */
@@ -146,13 +152,48 @@ nav{
 }
 
 nav  div{
-    font-size: 10px;
+    font-size: 14px;
     font-weight: bold;
     color: #7d7f84;
     padding-bottom: 40px;
 }
 
+.played{
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    gap: 10px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
 
+.album{
+    width: calc((100% - 50px) / 2);
+    /* background-color: yellow; */
+}
+
+.album img{
+    max-width: 100%;
+    display: block;
+}
+
+.descrizione{
+    padding: 10px 0;
+    text-align: center;
+}
+
+h4{
+    color: white;
+    font-size: 17px;
+
+}
+
+.sub{
+    color: #797c80;
+    font-size: 10px;
+    font-weight: bold;
+}
 /********** footer **********/
 footer{
     height: 90px;
