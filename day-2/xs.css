@@ -178,6 +178,10 @@ nav  div{
     display: block;
 }
 
+.hover-album:hover{
+    filter: contrast(0.6);
+}
+
 .descrizione{
     padding: 10px 0;
     text-align: center;
