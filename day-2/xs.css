@@ -106,10 +106,29 @@ hr{
 }
 
 
-/* navigazione */
-nav{
+/* home header */
+.home-header{
     height: 90px;
     background-color: #10151b;
+    position: sticky;
+    z-index: 3;
+    padding: 20px 20px 20px 0;
+    text-align: right;
+}
+
+.upgrade{
+    font-weight: bold;
+    font-size: 14px;
+    display: inline-block;
+    color: white;
+    padding: 15px 40px;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+.upgrade:hover{
+    color: #10151b;
+    background-color: white;
 }
 
 /* contenuti */
