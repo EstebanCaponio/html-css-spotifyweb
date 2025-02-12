@@ -18,7 +18,7 @@ main{
     overflow-y: auto;
 }
 
-/* menù */
+/*** menù ***/
 .menu{
     width: 50px;
     background-color: black;
@@ -100,7 +100,7 @@ hr{
     filter: none;
 }
 
-/* home */
+/*** home ***/
 .home-page{
     width: calc(100% - 50px);
 }
@@ -134,7 +134,24 @@ hr{
 /* contenuti */
 .contenuti{
     height: calc(100% - 90px);
+    padding: 20px 30px 30px 20px;
 }
+
+/* prima sezione */
+nav{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 20px;
+}
+
+nav  div{
+    font-size: 10px;
+    font-weight: bold;
+    color: #7d7f84;
+    padding-bottom: 40px;
+}
+
 
 /********** footer **********/
 footer{
