@@ -40,31 +40,26 @@ main{
 .menu ul{
     list-style: none;
     color: #5c5c5c;
-    text-align: center;
 }
 
 .menu ul li{
     display: flex;
     align-items: center;
-    padding-bottom: 10px;
+    padding: 0 15px;
+    margin-bottom: 10px;
 }
 
 .menu ul li img{
-    width: 23px;
     filter:brightness(0) saturate(100%) invert(33%) sepia(0%) saturate(0%) hue-rotate(92deg) brightness(100%) contrast(82%);
 }
 
 .menu ul li div{
     display: none;
+    
 }
 
 .playlist{
     display: none;
-}
-
-h5{
-    color: white;
-    padding-bottom: 20px;
 }
 
 .playlist ul li.margin{
@@ -82,8 +77,21 @@ h5{
     margin-top: auto;
 }
 
+.menu-bottom ul li{
+    margin: 0;
+}
+
+hr{
+    display: none;
+}
+
+.menu-bottom .download{
+    padding: 10px 15px;
+}
+
 .menu-bottom .id{
     color: white;
+    padding-top: 10px;
 }
 
 .menu-bottom .id img{

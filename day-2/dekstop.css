@@ -9,6 +9,7 @@
         text-align: left;
     }
 
+    /* menù top*/
     .logo :first-child {
         display: none;
     }
@@ -23,11 +24,11 @@
     }
 
     .menu ul li{
-        padding-bottom: 20px;
+        padding: 7px 20px;
     }
 
     .menu ul li img{
-        width: 30px;
+        width: 20px;
     }
     
     .menu ul li div{
@@ -39,13 +40,22 @@
         display: block;
     }
 
-    .menu-bottom ul{
-        padding-right: 10px;
+    h5{
+        color: white;
+        padding: 23px 0 15px 20px;
+    }
+
+    /* menù bottom*/
+    hr{
+        display: block;
+        color: white;
+        margin: 0 20px;
+        border: 1px solid;
+        height: 1px;
     }
 
     .menu-bottom .download{
-        border-bottom: 1px solid white;
-        margin-bottom: 20px;
+        padding: 10px 20px;
     }
 
     /* home */
