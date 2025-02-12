@@ -1,0 +1,68 @@
+@media screen and (min-width: 992px) {
+
+    /********** main **********/
+
+    /* menù */
+    .menu {
+        width: 230px;
+        padding-top:20px;
+        text-align: left;
+    }
+
+    .logo :first-child {
+        display: none;
+    }
+
+    .logo img+img {
+        display: block;
+        padding: 0 80px 30px 20px;
+    }
+
+    .menu ul{
+        text-align: left;
+    }
+
+    .menu ul li{
+        padding-bottom: 20px;
+    }
+
+    .menu ul li img{
+        width: 30px;
+    }
+    
+    .menu ul li div{
+        display: block;
+        padding-left: 10px;
+    }
+
+    .playlist{
+        display: block;
+    }
+
+    .menu-bottom ul{
+        padding-right: 10px;
+    }
+
+    .menu-bottom .download{
+        border-bottom: 1px solid white;
+        margin-bottom: 20px;
+    }
+
+    /* home */
+    .home-page {
+        width: calc(100% - 230px);
+    }
+
+    /* navigazione */
+    nav {
+        height: 100px;
+        background-color: #10151b;
+    }
+
+    /* contenuti */
+    .contenuti {
+        height: calc(100% - 170px);
+    }
+
+    /********** footer **********/
+}

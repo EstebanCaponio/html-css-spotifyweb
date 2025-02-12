@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", serif;
+}
+
+/* utilities */
+body{
+    height: 100vh;
+}
+
+/********** main **********/
+main{
+    height: calc(100% - 90px);
+    background-color: #151922;
+    display: flex;
+}
+
+/* menù */
+.menu{
+    width: 50px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px 0 10px 0;
+    color: #5c5c5c;
+}
+
+/* menù top*/
+.logo :first-child{
+    padding: 0 10px 15px 10px;
+}
+
+.logo img+img{
+    display: none;
+}
+
+.menu ul{
+    list-style: none;
+    color: #5c5c5c;
+    text-align: center;
+}
+
+.menu ul li{
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.menu ul li img{
+    width: 23px;
+    filter:brightness(0) saturate(100%) invert(33%) sepia(0%) saturate(0%) hue-rotate(92deg) brightness(100%) contrast(82%);
+}
+
+.menu ul li div{
+    display: none;
+}
+
+.playlist{
+    display: none;
+}
+
+h5{
+    color: white;
+    padding-bottom: 20px;
+}
+
+.playlist ul li.margin{
+    margin-top: 10px;
+}
+
+.fa-plus{
+    color: black;
+    background-color: #5c5c5c;
+    padding: 15px;
+}
+
+/* menù bottom*/
+.menu-bottom{
+    margin-top: auto;
+}
+
+.menu-bottom .id{
+    color: white;
+}
+
+.menu-bottom .id img{
+    filter: none;
+}
+
+/* home */
+.home-page{
+    width: calc(100% - 50px);
+}
+
+
+/* navigazione */
+nav{
+    height: 90px;
+    background-color: #10151b;
+}
+
+/* contenuti */
+.contenuti{
+    height: calc(100% - 90px);
+}
+
+/********** footer **********/
+footer{
+    height: 90px;
+    background-color: #282828;
+}
