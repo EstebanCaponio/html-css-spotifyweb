@@ -1,3 +1,75 @@
-@media screen and (min-width: 576px){
-    
+@media screen and (min-width: 576px) {
+
+    /********** main **********/
+    /* menù */
+    .menu {
+        width: 230px;
+        padding-top: 20px;
+        text-align: left;
+    }
+
+    /* menù top*/
+    .logo :first-child {
+        display: none;
+    }
+
+    .logo img+img {
+        display: block;
+        padding: 0 80px 30px 20px;
+    }
+
+    .menu ul {
+        text-align: left;
+    }
+
+    .menu ul li {
+        padding: 7px 20px;
+    }
+
+    .menu ul li img {
+        width: 20px;
+    }
+
+    .menu ul li div {
+        display: block;
+        padding-left: 10px;
+        font-weight: bold;
+    }
+
+    .home {
+        border-left: 3px solid #adff2f;
+    }
+
+    .hover:hover {
+        border-left: 3px solid #adff2f;
+    }
+
+    .playlist {
+        display: block;
+    }
+
+    h5 {
+        color: white;
+        padding: 23px 0 15px 20px;
+    }
+
+    /* menù bottom*/
+    hr {
+        display: block;
+        color: white;
+        margin: 0 20px;
+        border: 1px solid;
+        height: 1px;
+    }
+
+    .menu-bottom .download {
+        padding: 10px 20px;
+    }
+
+    /* home */
+    .home-page {
+        width: calc(100% - 230px);
+    }
+
+    /********** footer **********/
 }
