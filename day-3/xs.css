@@ -192,13 +192,14 @@ nav  div{
     border-radius: 50%;
 }
 
-.fa-circle-play{
+.album .fa-circle-play{
     font-size: 70px;
     color: black;
 }
 
 .album:hover .album-hover{
     display: flex;
+    cursor: pointer;
 }
 
 .album img{
@@ -234,4 +235,76 @@ h4{
 footer{
     height: 90px;
     background-color: #282828;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+/* prima sezione */
+.track{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.track img{
+    max-width: 30px;
+    padding-right: 10px;
+}
+
+.track .brano{
+    font-size: 12px;
+    color: white;
+    padding-right: 25px;
+}
+
+.track .fa-heart{
+    font-size: 12px;
+    color: white;
+}
+
+/* seconda sezione */
+.music{
+    padding: 10px 0 25px 0;
+}
+
+.funzioni-box{
+   width: 190px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   color: white;
+   padding-bottom: 15px;
+}
+
+.funzioni-box .fa-circle-play{
+    font-size: 30px;
+ }
+
+.sound-box{
+    max-width: 190px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    color: white;
+}
+
+.bar{
+    width: 130px;
+    height: 5px;
+    border-radius: 2px;
+    background-color: #5a5a5a;
+}
+
+.bar div{
+    width: 25px;
+    height: 5px;
+    border-radius: 2px;
+    background-color: #c1c1c1;
+}
+
+ /* terza sezione */
+.volume{
+    color: white;
 }
