@@ -267,10 +267,21 @@ footer{
     padding-right: 25px;
 }
 
-.track .fa-heart{
+.track .fa{
+    font-size: 12px;
+    color: #5c5c5c;
+}
+
+.track .fa:hover{
     font-size: 12px;
     color: white;
 }
+
+.fa-heart{
+    padding-right: 10px;
+}
+
+
 
 /* seconda sezione */
 .music{
