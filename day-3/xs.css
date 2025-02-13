@@ -143,7 +143,7 @@ hr{
     padding: 20px 30px 30px 20px;
 }
 
-/* prima sezione */
+/* prima sezione */   /*DA FARE DOPOOOOOOOOOOOOOOOOOOOOOOOOO*/
 nav{
     display: flex;
     justify-content: center;
@@ -159,7 +159,6 @@ nav  div{
 }
 
 .played{
-    /* background-color: red; */
     display: flex;
     flex-wrap: wrap;
     column-gap: 10px;
@@ -170,16 +169,41 @@ nav  div{
 
 .album{
     width: calc((100% - 10px) / 2);
-    /* background-color: yellow; */
+}
+
+.play{
+    position: relative;
+}
+
+.album-hover{
+    /* display: flex; */
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.circle{
+    border-radius: 50%;
+}
+
+.fa-circle-play{
+    font-size: 70px;
+    color: black;
+}
+
+.album:hover .album-hover{
+    display: flex;
 }
 
 .album img{
     max-width: 100%;
     display: block;
-}
-
-.hover-album:hover{
-    filter: contrast(0.6);
 }
 
 .descrizione{
