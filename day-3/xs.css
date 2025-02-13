@@ -19,7 +19,6 @@ main{
     height: calc(100% - 90px);
     background-color: #151922;
     display: flex;
-    /* overflow-y: auto; */
 }
 
 /*** menù ***/
@@ -107,16 +106,17 @@ hr{
 /*** home ***/
 .home-page{
     width: calc(100% - 50px);
-    /* overflow-y: auto; */
+    overflow-y: auto;
 }
 
 
 /* home header */
 .home-header{
     height: 90px;
-    background-color: #10151b;
+    background-color: rgba(8, 11, 18, 0.8);
     position: sticky;
     z-index: 3;
+    top: 0;
     padding: 20px 20px 20px 0;
     text-align: right;
 }
@@ -141,7 +141,6 @@ hr{
 .contenuti{
     height: calc(100% - 90px);
     padding: 20px 30px 30px 20px;
-    overflow-y: auto;
 }
 
 /* prima sezione */
