@@ -236,7 +236,7 @@ footer{
     height: 90px;
     background-color: #282828;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     padding: 0 10px;
 }
 
@@ -245,6 +245,10 @@ footer{
     display: flex;
     list-style: none;
     align-items: center;
+}
+
+.traccia{
+    margin-right: auto;
 }
 
 .track img{
@@ -266,6 +270,7 @@ footer{
 /* seconda sezione */
 .music{
     padding: 10px 0 25px 0;
+    align-self: center;
 }
 
 .funzioni-box{
@@ -307,4 +312,21 @@ footer{
  /* terza sezione */
 .volume{
     color: white;
+    font-size: 12px;
+    column-gap: 10px;
+    margin-left: auto;
+}
+
+.bar-vol{
+    width: 85px;
+    height: 5px;
+    border-radius: 2px;
+    background-color: #5a5a5a;
+}
+
+.bar-vol div{
+    width: 20px;
+    height: 5px;
+    border-radius: 2px;
+    background-color: #c1c1c1;
 }
