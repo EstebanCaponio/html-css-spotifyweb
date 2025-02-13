@@ -158,6 +158,11 @@ nav  div{
     padding-bottom: 40px;
 }
 
+nav div:hover{
+    color: white;
+    cursor: pointer;
+}
+
 .played{
     display: flex;
     flex-wrap: wrap;
