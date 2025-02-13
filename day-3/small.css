@@ -97,5 +97,26 @@
 
     /********** footer **********/
 
+/* prima sezione */
+.track img{
+    max-width: 38px;
+    padding-right: 10px;
+}
+
+/* seconda sezione */
+.bar{
+    width: 145px;
+    height: 5px;
+    border-radius: 2px;
+    background-color: #5a5a5a;
+}
+
+ /* terza sezione */
+.bar-vol{
+    width: 100px;
+    height: 5px;
+    border-radius: 2px;
+    background-color: #5a5a5a;
+}
 
 }

@@ -5,4 +5,11 @@
         width: calc((100% - 50px) / 6);
         /* background-color: yellow; */
     }
+
+    .bar{
+        width: 425px;
+        height: 5px;
+        border-radius: 2px;
+        background-color: #5a5a5a;
+    }
 }
