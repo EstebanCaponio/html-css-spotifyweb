@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Web</title>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- icone -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- collegamenti css -->
+    <link rel="stylesheet" href="xs.css">
+    <link rel="stylesheet" href="small.css">
+    <link rel="stylesheet" href="md.css">
+    <link rel="stylesheet" href="dekstop.css">
+</head>
+
+<body>
+    <main>
+        <!-- colonna del menù -->
+        <div class="menu">
+            <div class="menu-top">
+                <div class="logo">
+                    <img src="../img/logo-small.svg" alt="logo-small">
+                    <img src="../img/logo.svg" alt="logo">
+                </div>
+
+                <ul>
+                    <li class="home hover">
+                        <img class="img-hover" src="../img/home.svg" alt="logo">
+                        <div>Home</div>
+                    </li>
+                    <li class="cerca hover trasp">
+                        <img class="img-hover" src="../img/search.svg" alt="logo">
+                        <div>Cerca</div>
+                    </li>
+                    <li class="libreria hover trasp">
+                        <img class="img-hover" src="../img/libreria.svg" alt="logo">
+                        <div>La tua libreria</div>
+                    </li>
+                </ul>
+
+                <div class="playlist">
+                    <h5>PLAYLISTS</h5>
+                    <ul>
+                        <li class="hover trasp">
+                            <i class="fa-solid fa-plus"></i>
+                            <div>Crea Playlist</div>
+                        </li>
+                        <li class="margin hover trasp">
+                            Nome Playlist
+                        </li>
+                        <li class="hover trasp">Nome Playlist</li>
+                        <li class="hover trasp">Nome Playlist</li>
+                        <li class="hover trasp">Nome Playlist</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="menu-bottom">
+                <ul>
+                    <li class="download">
+                        <img class="dw-img" src="../img/download.svg" alt="download">
+                        <div>Installa app</div>
+                    </li>
+                    <hr>
+                    <li class="id">
+                        <img src="../img/profile.svg" alt="download">
+                        <div>Gaetano Frascolla</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- home page -->
+        <div class="home-page">
+            <div class="home-header">
+                <div class="upgrade">EFFETTUA L'UPGRADE</div>
+            </div>
+            <div class="contenuti">
+                <section>
+                    <nav>
+                        <div>IN EVIDENZA</div>
+                        <div>PODCAST</div>
+                        <div>CLASSIFICHE</div>
+                        <div>GENERI E MOOD</div>
+                        <div>NUOVE USCITE</div>
+                        <div>SCOPRI</div>
+                    </nav>
+                </section>
+                <section>
+                    <h3>Recently played</h3>
+                    <div class="played">
+                        <div class="album hover-album">
+                            <!-- <div class="play"> -->
+                                <img src="../img/metal_lifting.jpg" alt="metal">
+                            <!-- </div> -->
+                            <div class="descrizione">
+                                <h4>Heavy Metal</h4>
+                                <div class="sub">Subtitle</div>
+                            </div>
+                        </div>
+                        <div class="album hover-album">
+                            <img src="../img/stranger.jpeg" alt="stranger-thing">
+                            <div class="descrizione">
+                                <h4>Stranger Things, Vol. 1 (a Netflix series soundtrack)</h4>
+                                <div class="sub">Kyle Dixon & Michael Stain</div>
+                            </div>
+                        </div>
+                        <div class="album hover-album">
+                            <img src="../img/aquietplace.jpeg" alt="aquietplace">
+                            <div class="descrizione">
+                                <h4>A quiet place</h4>
+                                <div class="sub">Subtitle</div>
+                            </div>
+                        </div>
+                        <div class="album hover-album">
+                            <img src="../img/split.jpeg" alt="split">
+                            <div class="descrizione">
+                                <h4>Split</h4>
+                                <div class="sub">Subtitle</div>
+                            </div>
+                        </div>
+                        <div class="album hover-album">
+                            <img src="../img/cure.jpeg" alt="cure">
+                            <div class="descrizione">
+                                <h4>A cure for wellness</h4>
+                                <div class="sub">Subtitle</div>
+                            </div>
+                        </div>
+                        <div class="album hover-album">
+                            <img src="../img/sinister.jpeg" alt="sinister">
+                            <div class="descrizione">
+                                <h4>Sinister</h4>
+                                <div class="sub">Subtitle</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="creato">
+                    <h3>Creato per John Doe</h3>
+                    <div class="sub">
+                        Più ascolti, oiù saranno accurati i suggerimenti
+                    </div>
+                    <div class="played">
+                        <div class="album hover-album">
+                            <img src="../img/radar.jpeg" alt="metal">
+                            <div class="descrizione">
+                                <h4>Release Radar</h4>
+                            </div>
+                        </div>
+                        <div class="album hover-album">
+                            <img src="../img/mixdaily.jpeg" alt="stranger-thing">
+                            <div class="descrizione">
+                                <h4>Daily mix 1</h4>
+                            </div>
+                </section>
+                <section class="creato cerchio">
+                    <h3>Artisti più popolari</h3>
+                    <div class="sub">
+                        Più ascolti, oiù saranno accurati i suggerimenti
+                    </div>
+                    <div class="played">
+                        <div class="album hover-album">
+                            <img src="../img/youg.jpeg" alt="metal">
+                            <div class="descrizione">
+                                <h4>Lana del Rey </h4>
+                            </div>
+                        </div>
+                        <div class="album hover-album">
+                            <img src="../img/einaudi.jpeg" alt="stranger-thing">
+                            <div class="descrizione">
+                                <h4>Il meglio di Einaudi</h4>
+                            </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!-- barra canzone -->
+    <footer></footer>
+</body>
+
+</html>
