@@ -68,7 +68,7 @@
     }
 
     /* menù bottom*/
-    hr {
+    .menu-bottom hr {
         display: block;
         color: white;
         margin: 0 20px;
@@ -109,6 +109,10 @@
     height: 5px;
     border-radius: 2px;
     background-color: #5a5a5a;
+}
+
+.test{
+    width: 145px;
 }
 
  /* terza sezione */

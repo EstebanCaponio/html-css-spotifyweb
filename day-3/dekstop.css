@@ -6,10 +6,7 @@
         /* background-color: yellow; */
     }
 
-    .bar{
+    .test{
         width: 425px;
-        height: 5px;
-        border-radius: 2px;
-        background-color: #5a5a5a;
     }
-}
+    }
