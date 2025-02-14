@@ -1,0 +1,12 @@
+@media screen and (min-width: 992px) {
+
+    /********** main **********/
+    .album{
+        width: calc((100% - 50px) / 6);
+        /* background-color: yellow; */
+    }
+
+    /* .test{
+        width: 425px;
+    } */
+    }

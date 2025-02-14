@@ -1,0 +1,126 @@
+@media screen and (min-width: 576px) {
+
+    /********** main **********/
+    /* menù */
+    .menu {
+        width: 230px;
+        padding-top: 20px;
+        text-align: left;
+    }
+
+    /* menù top*/
+    .logo :first-child {
+        display: none;
+    }
+
+    .logo img+img {
+        display: block;
+        padding: 0 80px 30px 20px;
+    }
+
+    .menu ul {
+        text-align: left;
+    }
+
+    .menu ul li {
+        padding: 7px 20px;
+    }
+
+    .menu ul li img {
+        width: 20px;
+    }
+
+    .menu ul li div {
+        display: block;
+        padding-left: 10px;
+        font-weight: bold;
+    }
+
+    .home {
+        border-left: 3px solid #adff2f;
+    }
+
+    .trasp {
+        border-left: 3px solid transparent;
+    }
+
+    .hover:hover {
+        border-left: 3px solid #adff2f;
+        cursor: pointer;
+        color: white;
+    }
+
+    .hover:hover .img-hover {
+        filter: none;
+    }
+
+    .hover:hover .fa-plus {
+        background-color: white;
+    }
+
+    .playlist {
+        display: block;
+    }
+
+    h5 {
+        color: white;
+        padding: 23px 0 15px 20px;
+    }
+
+    /* menù bottom*/
+    .menu-bottom hr {
+        display: block;
+        color: white;
+        margin: 0 20px;
+        border: 1px solid;
+        height: 1px;
+    }
+
+    .menu-bottom .download {
+        padding: 10px 20px;
+    }
+
+    .menu-bottom .download:hover {
+        cursor: pointer;
+        color: white;
+    }
+
+    .menu-bottom .download:hover .dw-img {
+        filter: none;
+    }
+
+    /* home */
+    .home-page {
+        width: calc(100% - 230px);
+    }
+
+
+    /********** footer **********/
+
+/* prima sezione */
+.track img{
+    max-width: 38px;
+    padding-right: 10px;
+}
+
+/* seconda sezione */
+.bar{
+    width: 145px;
+    height: 5px;
+    border-radius: 2px;
+    background-color: #5a5a5a;
+}
+
+/* .test{
+    width: 145px;
+} */
+
+ /* terza sezione */
+.bar-vol{
+    width: 100px;
+    height: 5px;
+    border-radius: 2px;
+    background-color: #5a5a5a;
+}
+
+}

@@ -1,0 +1,21 @@
+@media screen and (min-width: 768px){
+    /********** main **********/
+    .album{
+        width: calc((100% - 30px) / 4);
+        /* background-color: yellow; */
+    }
+
+    /********** footer **********/
+
+    /* .test{
+        width: 250px;
+    } */
+    
+     /* terza sezione */
+    .bar-vol{
+        width: 120px;
+        height: 5px;
+        border-radius: 2px;
+        background-color: #5a5a5a;
+    }
+}
